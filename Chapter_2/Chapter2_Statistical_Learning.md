@@ -120,4 +120,4 @@ KNN applies Bayes rule. The choice of K has a drastic effect on the classifier o
 
 Choosing the correct level of flexibility is crucial for success of any statistical model. Bias variance tradeoff makes it a difficult task
 
-Exercise solutions :[https://www.kaggle.com/lmorgan95/islr-statistical-learning-ch-2-solutions](https://www.kaggle.com/lmorgan95/islr-statistical-learning-ch-2-solutions)
+
