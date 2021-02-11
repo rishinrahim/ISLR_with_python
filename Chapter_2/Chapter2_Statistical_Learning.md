@@ -2,7 +2,7 @@
 
 ### **What is Statistical Learning ?**
 
-$$Y = f(X) + ε$$
+<img src="https://latex.codecogs.com/gif.latex?Y&space;=&space;f(X)&space;&plus;&space;\epsilon" title="Y = f(X) + \epsilon" />
 
 **Y** : Output Variable/Dependent Variable/Response Variable
 
@@ -90,7 +90,7 @@ Selecting the best model can be the most challenging parts of performing statist
 
 The expected test MSE for a given value X' can always be decomposed into the sum of three fundamental quantities :  variance of f(X'), the squared bias of f(X') and the variance of the error term. (proof is beyond the scope now)
 
-$$E(y'-f(X'))^2 = Var(f(X')+ [Bias(f(X')]^2+Var(e)$$
+<img src="https://latex.codecogs.com/gif.latex?E(y'-f(X'))^2&space;=&space;Var(f(X')&plus;&space;[Bias(f(X')]^2&plus;Var(e)" title="E(y'-f(X'))^2 = Var(f(X')+ [Bias(f(X')]^2+Var(e)" />
 
 **Variance** refers to the amount by which f would change if we estimated it using a different training data set. ideally the estimate for f should not vary much between training sets
 
@@ -109,8 +109,8 @@ The relationship between variance, bias and test MSE is referred as bias-varianc
 ### Classification Setting
 
 Training error rate :
-
-$$1/nΣ(I(y≠y'))$$
+        
+<img src="https://latex.codecogs.com/gif.latex?1/n\sum&space;(I(y\neq&space;y'))" title="1/n\sum (I(y\neq y'))" />
 
 I is referred to Indicator variable that equals 1 if y ≠ y' and 0 if y==y'
 
