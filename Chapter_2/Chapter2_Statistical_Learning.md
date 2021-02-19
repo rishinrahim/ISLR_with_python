@@ -16,7 +16,8 @@ Statistical Learning are set of approaches for estimating f
 
 The accuracy of Y^ as a prediction of Y depends on two quantities : Reducible error and irreducible error.
 
-$$E(Y - Y')^2 = E[F(X) + ε- f'(X)]^2 = [f(X) - f'(X)]^2 + var(ε)$$
+<img src="https://latex.codecogs.com/gif.latex?E(Y&space;-&space;Y')^2&space;=&space;E[F(X)&space;&plus;&space;\epsilon-&space;f'(X)]^2&space;=&space;[f(X)&space;-&space;f'(X)]^2&space;&plus;&space;var(\epsilon)" title="E(Y - Y')^2 = E[F(X) + \epsilon- f'(X)]^2 = [f(X) - f'(X)]^2 + var(\epsilon)" />
+
 
 f^ will not be an accurate estimate of f. This inaccuracy will introduce some errors and this error is called reducible error.
 
@@ -32,7 +33,7 @@ Two reasons :
     - Set of inputs X available but output Y cannot be easily obtained
     - we can predict Y using :
 
-        $$Y' = f(X)$$
+<img src="https://latex.codecogs.com/gif.latex?Y'&space;=&space;f(X)" title="Y' = f(X)" />
 
 f is treated as black box. Prediction is not concerned with exact form of f
 
